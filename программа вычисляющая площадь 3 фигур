@@ -1,0 +1,16 @@
+программа вычисляющая площадь 3 фигур
+a = input('Enter a form room(прямоугольник, круг, треугольник) ')
+if a == 'прямоугольник':
+    b = int(input())
+    c = int(input())
+    print(float(b * c))
+if a == 'круг':
+    r = int(input())
+    print(float(3.14 * r ** 2))
+if a == 'треугольник':
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    p = (b + c + d) / 2
+    S = float(p * (p - b) * (p - c) * (p - d)) ** 0.5
+    print(S)
