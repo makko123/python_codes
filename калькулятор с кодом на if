@@ -1,0 +1,27 @@
+калькулятор с кодом на if
+a = float(input('first number '))
+b = float(input('second number '))
+c = input('enter operation: mod; pow; div ')
+if c == '+':
+    print(a + b)
+elif c == '-':
+    print(a - b)
+if c == '/':
+    if b != 0:
+        print(a / b)
+    else:
+        print('Деление на 0!')
+if c == 'mod':
+    if b != 0:
+        print(a % b)
+    else:
+        print('Деление на 0!')
+if c == 'div':
+    if b != 0:
+        print(a // b)
+    else:
+        print('Деление на 0!')
+if c == '*':
+    print(a * b)
+elif c == 'pow':
+    print(a ** b)
