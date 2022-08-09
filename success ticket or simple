@@ -1,0 +1,14 @@
+success ticket or simple
+a = int(input())
+b = a // 1000
+d = b // 100
+e = (b // 10) % 10
+f = b % 10
+c = a % 1000
+h = c // 100
+i = (c // 10) % 10
+j = c % 10
+if (d + e + f) == (h + i + j):
+    print('Счастливый')
+else:
+    print('Обычный')
