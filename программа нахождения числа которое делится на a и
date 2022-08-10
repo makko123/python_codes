@@ -1,0 +1,5 @@
+программа нахождения числа которое делится на a и b
+a, b, d = int(input()), int(input()), 1
+while d % a != 0 or d % b != 0:
+    d += 1
+print(d)
