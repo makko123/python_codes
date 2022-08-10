@@ -23,5 +23,5 @@ if c == 'div':
         print('Деление на 0!')
 if c == '*':
     print(a * b)
-elif c == 'pow':
+if c == 'pow':
     print(a ** b)
