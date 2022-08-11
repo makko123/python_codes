@@ -1,0 +1,17 @@
+programm, which read enter numbers and show num, that > 10 and < 100 if a > 100 programm break
+1)a = 0
+while a <= 100:
+    a = int(input())
+    if a > 100:
+        break
+    if a < 10:
+        continue
+    print(a)
+2)while True:
+    a = int(input())
+    if a < 10:
+        continue
+    elif a > 100:
+        break
+    else:
+        print(a)
